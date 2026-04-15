@@ -1,0 +1,66 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@example.com",
+            "subscription": "Gold",
+            "borrowedBooks": [
+                {
+                    "bookId": 101,
+                    "title": "The Great Gatsby",
+                    "author": "F. Scott Fitzgerald",
+                    "borrowDate": "2024-01-15",
+                    "dueDate": "2024-02-15",
+                    "returnDate": "2024-02-10"
+                },
+                {
+                    "bookId": 102,
+                    "title": "To Kill a Mockingbird",
+                    "author": "Harper Lee",
+                    "borrowDate": "2024-01-20",
+                    "dueDate": "2024-02-20"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane@example.com",
+            "subscription": "Premium",
+            "borrowedBooks": [
+                {
+                    "bookId": 103,
+                    "title": "1984",
+                    "author": "George Orwell",
+                    "borrowDate": "2024-01-10",
+                    "dueDate": "2024-02-10",
+                    "returnDate": "2024-02-08"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Michael Brown",
+            "email": "michael@example.com",
+            "subscription": "Silver",
+            "borrowedBooks": []
+        },
+        {
+            "id": 4,
+            "name": "Emily Davis",
+            "email": "emily@example.com",
+            "subscription": "Gold",
+            "borrowedBooks": [
+                {
+                    "bookId": 104,
+                    "title": "Pride and Prejudice",
+                    "author": "Jane Austen",
+                    "borrowDate": "2024-02-01",
+                    "dueDate": "2024-03-01",
+                    "returnDate": "2024-02-28"
+                }
+            ]
+        }
+    ]
+}

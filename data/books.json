@@ -1,0 +1,29 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "The Great Gatsby",
+            "author":"j.r.r tolkien",
+            "publishedYear": 1925
+        },
+        {
+            "id": 2,
+            "title": "To Kill a Mockingbird",
+            "author":"harper lee",
+            "publishedYear": 1960
+        },
+        {
+            "id": 3,
+            "title": "1984",
+            "author":"george orwell",
+            "publishedYear": 1949
+        },
+        {
+            "id": 4,
+            "title": "Pride and Prejudice",
+            "author":"jane austen",
+            "publishedYear": 1813
+
+        }
+    ]
+}

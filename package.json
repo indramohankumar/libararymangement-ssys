@@ -1,0 +1,27 @@
+{
+  "name": "3.libarary-mangement",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/indramohankumar/libarary-mangement-system#readme",
+  "bugs": {
+    "url": "https://github.com/indramohankumar/libarary-mangement-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indramohankumar/libarary-mangement-system.git"
+  },
+  "license": "ISC",
+  "author": "mohan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
