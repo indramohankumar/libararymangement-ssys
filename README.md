@@ -149,3 +149,12 @@ If you like this project, give it a ⭐ on GitHub!
 ## 👨‍💻 Author
 
 **Indramohan Kumar**
+mongodb+srv://Mohan:<db_password>@cluster0.flckklh.mongodb.net/?appName=Cluster0
+
+## MVC Architecture
+  >>m:Model (structure of our mongodb)
+  >>v:view(frontend)
+  >>c:controller(brain/logic of the route)
+
+  ## DTO (data transfer object)
+
