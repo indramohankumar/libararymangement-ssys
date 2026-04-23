@@ -20,7 +20,7 @@ This project allows you to manage users and books with basic CRUD operations.
 * **Node.js**
 * **Express.js**
 * **JavaScript (ES6 / CommonJS)**
-* JSON (for data storage)
+* **MONGODB (for data storage)
 
 ---
 
