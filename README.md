@@ -1,6 +1,6 @@
 # 📚 Library Management System (Backend)
 
-A simple and efficient **Library Management System API** built using **Node.js** and **Express.js**.
+A simple and efficient **Library Management System API** built using **Node.js** and **Express.js** and database authentication using **mongo db**.
 This project allows you to manage users and books with basic CRUD operations.
 
 ---
@@ -116,7 +116,7 @@ POST /users
 
 ---
 
-## ⚠️ Limitations
+## Improvised features
 
 * Data is stored in Mongoose database 
 * Authentication implemented
