@@ -27,13 +27,12 @@ This project allows you to manage users and books with basic CRUD operations.
 ## 📁 Project Structure
 
 ```
-├── data/
-│   ├── user.json
-│   └── books.json
-├── routes/
-│   ├── users.js
-│   └── books.js
-├── index.js
+├── controllers/        # Business logic
+├── data/               # (Deprecated - previously JSON storage)
+├── dto/                # Data Transfer Objects
+├── routes/             # API routes
+├── databaseconnection.js  # MongoDB connection setup
+├── index.js            # Entry point
 ├── package.json
 ```
 
@@ -119,18 +118,16 @@ POST /users
 
 ## ⚠️ Limitations
 
-* Data is stored in JSON files (no database)
-* No authentication implemented
-* Not production-ready (for learning purposes)
+* Data is stored in Mongoose database 
+* Authentication implemented
+* production-ready (for learning purposes)
 
 ---
 
 ## 🎯 Future Improvements
 
-* 🔐 Add authentication (JWT)
-* 🗄️ Integrate database (MongoDB / MySQL)
-* 📊 Add validations & error handling
-* 🌍 Deploy API online
+* 📊 Implementation of mern security and auth
+
 
 ---
 
